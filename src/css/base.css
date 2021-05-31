@@ -22,15 +22,15 @@ main {
 
 body {
 	margin: 0;
-	--color-text: #f2f2f2;
+	--color-text: #000;
 	--color-text-alt: #848484;
-	--color-title: #f2f2f2;
-    --color-bg: #101010;
-    --color-link: #2231ff;
-	--color-link-hover: #fff;
+	--color-title: #d3d3d3;
+    --color-bg: #DCDCDC;
+    --color-link: #E3154D;
+	--color-link-hover: #000;
     color: var(--color-text);
     background-color: var(--color-bg);
-    --cursor-stroke: #2231ff;
+    --cursor-stroke: #E3154D;
     --cursor-fill: none;
     --cursor-stroke-width: 1px;
     --cursor-text: #000;
@@ -283,7 +283,7 @@ a:focus {
 	margin: 0;
 	line-height: 1.2;
 	position: relative;
-	color: #181717;
+	color: #c7c7c7;
 	text-transform: uppercase;
 	pointer-events: none;
 }
